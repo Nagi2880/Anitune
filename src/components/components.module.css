@@ -1,0 +1,16 @@
+#headerContainer{
+    background-color: black;
+}
+#navlogo{
+
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    letter-spacing: 3px;
+    
+    color: white;
+    
+    
+
+}
