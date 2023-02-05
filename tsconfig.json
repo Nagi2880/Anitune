@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "Globals.d.ts"  ]
+, "src/Globals.d.ts"  ]
 }
