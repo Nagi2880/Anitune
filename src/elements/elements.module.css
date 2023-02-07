@@ -1,4 +1,4 @@
-
+/*Headerlist.jsx*/
 #navbarbutton{
     margin: 20px;
 }
@@ -37,3 +37,26 @@
     border-color: red;
     color: red;
 }
+/* ////////////////////////////////    */
+
+
+/*MainTitle.jsx*/
+#TitleMain{
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 5.5em;
+    letter-spacing: 0.06em;
+
+    padding-left:1rem;
+
+}
+#SubtitleMain{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size:4em;
+
+    padding-left: 1rem;
+}
+
+/* ////////////////////////////////    */

@@ -6,7 +6,7 @@ export default function HeaderMain() {
     
        <header id={styles.headerContainer} className="d-flex align-items-center justify-content-between" >       
           <nav id={styles.navlogo}>
-            Anitune
+            Anitunes
           </nav>
           <Headerlist />
       </header>
