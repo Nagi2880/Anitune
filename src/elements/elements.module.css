@@ -54,9 +54,23 @@
 #SubtitleMain{
     font-family: 'Montserrat';
     font-weight: 800;
-    font-size:4em;
-
-    padding-left: 1rem;
+}
+#TitleContainer{
+    position: relative;
+    z-index: 1;
 }
 
+#Your{
+    font-size:10em;
+    letter-spacing: 25px;
+}
+#Music{
+    font-size:7em;
+    letter-spacing: 2px;
+    padding-left: 2em;
+}
+#Destiny{
+    padding-left: 4em;
+    font-size: 7em;
+}
 /* ////////////////////////////////    */

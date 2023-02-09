@@ -9,7 +9,6 @@
 
 /* HeaderHome.jsx**/
 #headerContainer{
-    background-color: #1d2024;
     width: 100%;
 }
 #navlogo{
@@ -28,8 +27,19 @@
 /*MainHome.jsx */
 
 #mainContainer{ 
+    position: relative;
     min-height: 100vh;
     color: white;
+}
+#RedCircle{
+    position:absolute;
+    z-index: 0;
+    right: 0;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 100%;
+    background: rgb(50,5,5);
+    background: linear-gradient(259deg, rgba(50,5,5,1) 25%, rgba(29,32,36,1) 85%);
 }
 
 

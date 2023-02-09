@@ -5,6 +5,7 @@ export default function MainHome() {
   return (
     <main id={styles.mainContainer} className="d-flex col-12">
       <MainTitle />
+      <div id={styles.RedCircle}/>
     </main>
   )
 }
