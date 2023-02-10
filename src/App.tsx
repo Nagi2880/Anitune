@@ -7,6 +7,7 @@ import {
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 import Home from './pages/Home';
+import Poster from './elements/Poster';
 
 function App() {
   const route = createBrowserRouter([
@@ -15,6 +16,10 @@ function App() {
       path:"/",
       element: <Home />
     },
+    {
+      path:"/test",
+      element: <Poster />
+    }
   ])
   return (
     <div className="App">
